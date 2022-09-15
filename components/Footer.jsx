@@ -4,6 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram} from '@fortawesome/free-brands-svg-icons';
+
+
 export default function Footer () {
 
     return(
@@ -11,8 +15,3 @@ export default function Footer () {
     </div>
     )
 }
-/*                <Link href="/" >
-<a>
-<Image src={Logo} alt="Aba Embalagens" />
-</a>
-</Link>*/

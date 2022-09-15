@@ -40,42 +40,42 @@ export default function Home() {
       <div>
 
       </div>
-      <Container fluid className="containerBanner pt-3 pb-3 mb-5 ">
-      <Row>
-        <Col>
-        <Image src={test} alt="teste"/>
-        </Col>
+      <Container className="">
+        <Row>
           <Col>
-            <div className="alignBanner">
-              <p className="textMovie "> Produzimos as melhores embalagens personalizadas que sua empresa merece, tudo com rapidez e qualidade</p>
-              <button className="btnOrc">Solicite um Orçamento</button>
-            </div>
+            <Image src={test} alt="teste"/>
           </Col>
-      </Row>
+          <Col >
+                <p className="textMovie "> Produzimos as melhores embalagens personalizadas que sua empresa merece, tudo com rapidez e qualidade</p>
+                <Button className="">Solicite um Orçamento</Button>
+          </Col>
+        </Row>
       </Container>
-      <Container fluid>
+      <Container >
           <Row>
             <p>Acreditamos que a primeira impressão é a que fica, então a ABA Embalagens oferece a melhor embalagem para o seu produto, personalizada do seu jeito!</p>
             <p>lugar da image</p>
         <p>Produzimos as melhores embalagens personalizadas que sua empresa merece, tudo com rapidez e qualidade</p>
         <p><button>Confira nossos produtos!</button></p>
-          </Row>
-            <Row className="pt-5">
-            <Col className="testevh">
-                <Image src="/i-pers-r.png" alt="" width="50" height="50" layout="responsive"/>
+          </Row >
+          </Container>
+          <Container >
+            <Row xs="6" className="pt-5 justify-content-around">
+            <Col className="">
+                <Image src="/i-pers-r.png" alt="" width="150" height="150" layout="intrinsic"/>
                 <p>Personalização do seu jeito!</p>
             </Col>
-            <Col className="testevh">
-            <Image src="/i-caixa-r.png" alt="" width="12" height="12" layout="responsive"/>
+            <Col className="pl-3">
+            <Image src="/i-caixa-r.png" alt="" width="150" height="150" layout="intrinsic"/>
             <p>Resistência e Qualidade</p>
             </Col>
             <Col className="testevh">
-            <Image src="/i-entrega-r.png" alt="" width="12" height="12" layout="responsive"/>
+            <Image src="/i-entrega-r.png" alt="" width="150" height="150" layout="intrinsic"/>
             <p>Entrega Rápida</p>
             </Col>
             <Col className="testevh">
-            <Image src="/i-timer-r.png" alt="" width="12" height="12"  layout="responsive"/>
-            <p>entrega rápida</p>
+            <Image src="/i-entrega-r.png" alt="" width="150" height="150" layout="intrinsic"/>
+            <p>Entrega Rápida</p>
             </Col>
             </Row>
       </Container>

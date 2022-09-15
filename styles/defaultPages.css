@@ -19,16 +19,10 @@
     color: #fff;
     width: 70%;
     font-weight: 400;
-    padding: 2%;
     text-shadow: 5px 5px 4px black;
 }
 
-.alignBanner {
-    display: flex;
-    flex-direction: column;
-    justify-items:flex-end;
-    align-items: flex-end;
-}
+
 
 .btnOrc {
     width: 28%;
@@ -40,12 +34,24 @@
     text-shadow: 3px 3px 6px black;
 }
 
-.containerBanner {
-    background-color:#4daa25 ;
+.alignBanner {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
 }
 
-.testevh {
-   margin-right: 5%;
-   margin-left: 5%;
+.containerBanner {
+    background-color:#4daa25 ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
 }
+
+
+
+.flexicons {
+    display: flex;
+}
+
+
 
