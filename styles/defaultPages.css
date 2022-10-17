@@ -42,6 +42,7 @@
 
 .containerBanner {
     background-color:#4daa25 ;
+    font-family: 'Quicksand', sans-serif;
 
 }
 
@@ -61,6 +62,8 @@
     color: #e2001a;
     border-radius: 8px;
     border: 2px #e2001a solid ;
+    font-family: 'Quicksand', sans-serif;
+    
 }
 
 .btnVI:hover {
@@ -87,4 +90,82 @@
 .fundoBtnBanner {
     background-color: #4daa25;
 }
+
+.navBtnSty {
+    color: #e2001a;
+    background-color: #4daa25;
+}
+
+.fontQuick{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.whatsapp-link{
+    position: fixed;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 23px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 36px;
+    box-shadow:1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.footerOrg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.iconInsta {
+    width: 35px;
+    height: 35px;
+    background-color:  #f9f8f9;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.iconFace {
+    width: 35px;
+    height: 35px;
+    background-color:  #fff;
+    color: #405DE6;
+    border-radius: 70px;
+}
+
+.titleFooter {
+    padding-right: 30px;
+    font-family: 'Quicksand', serif;
+}
+
+.colorNavHead {
+    color: #000 !important;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.colorNavHead:hover {
+    color: #4daa25 !important;
+}
+
+
+
+.backHov:hover {
+    background-color: #e2001a !important;
+    color: #fff !important;
+}
+
+.pStyle {
+    font-size: 1rem;
+}
+
 

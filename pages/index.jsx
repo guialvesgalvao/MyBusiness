@@ -1,5 +1,6 @@
 import { UncontrolledCarousel,Button,Row,Col, Container } from "reactstrap";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
@@ -51,14 +52,14 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <Container className="text-center pt-5 pb-2">
-        <Row className="pb-3">
+      <Container className="text-center pt-5 pb-2 fontQuick">
+        <Row className="pb-3 pStyle">
             <p>Acreditamos que a primeira impressão é a que fica, então a ABA Embalagens oferece a melhor embalagem para o seu produto, personalizada do seu jeito!</p>
         </Row >
         <Row>
         <iframe className="" width="727" height="409" src="https://www.youtube.com/embed/YTTvB8yQDt8" title="Vídeo Institucional Aba" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </Row>
-        <Row className="pt-5">
+        <Row className="pt-5 pStyle">
         <p>Produzimos as melhores embalagens personalizadas que sua empresa merece, tudo com rapidez e qualidade</p>
         </Row>
         <Row className="displayBtn">
@@ -67,7 +68,7 @@ export default function Home() {
 
       </Container>
           <Container >
-            <Row xs="6" className="pt-5 justify-content-around text-center">
+            <Row xs="6" className="pt-5 justify-content-around text-center fontQuick">
             <Col className="">
                 <Image src="/i-pers-r.png" alt="" width="150" height="150" layout="intrinsic"/>
                 <p>Personalização do seu jeito!</p>
@@ -86,6 +87,11 @@ export default function Home() {
             </Col>
             </Row>
       </Container>
+      <div className="popup">
+        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511995249688" className="whatsapp-link" target="_blank" rel="noreferrer">
+        <FontAwesomeIcon icon={faWhatsapp} />
+        </a>
+      </div>
     </div>
   )
 }

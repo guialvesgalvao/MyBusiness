@@ -6,16 +6,14 @@ import React, { useState } from 'react';
 
 export default function Header () {
 
-  const [collapsed, setCollapsed] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleNavbar = () => setCollapsed(!collapsed);
+  const toggle = () => setIsOpen(!isOpen);
 
     return(
-<>
-  <Navbar
-    className="backColor"    
-  >
-    <NavbarBrand href="/">
+<div>
+      <Navbar className="backColor " expand="sm">
+      <NavbarBrand href="/">
       <Image
         alt="logo"
         src={Logo}
@@ -24,21 +22,35 @@ export default function Header () {
         placeholder="blur"
       />
     </NavbarBrand>
-    <NavbarToggler onClick={toggleNavbar} className="me-2" />
-        <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="me-auto" navbar>
+          <NavItem>
+              <NavLink href="/components/" className="colorNavHead">Ínicio</NavLink>
+            </NavItem>
+          <UncontrolledDropdown  nav inNavbar>
+              <DropdownToggle nav caret className="colorNavHead">
+                Produtos
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem className="backHov fontQuick">Todos os Produtos</DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem className="backHov fontQuick">Caixas de Pizzas</DropdownItem>
+                <DropdownItem className="backHov fontQuick">Guardanapos de papel personalizados</DropdownItem>
+                <DropdownItem className="backHov fontQuick">Sacos de papel personalizados</DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/components/" className="colorNavHead">Sobre Nós</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
-              </NavLink>
+              <NavLink href="/components/" className="colorNavHead">Contato</NavLink>
             </NavItem>
           </Nav>
+          
         </Collapse>
-  </Navbar>
-</>
+      </Navbar>
+    </div>
 
         
     )
