@@ -1,0 +1,45 @@
+/* --- Contato --- */
+
+.orgMapCtt {
+    height: 80vh;
+    display: flex;
+    
+
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.titleCtt{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.iconCtt {
+    width: 35px;
+    height: 35px;
+    background-color:  #f9f8f9;
+    color: black;
+    padding: 3px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+}
+
+.socialOrg{
+    
+}
+
+.iconOrg {
+    display: flex;
+    align-items: center;
+}
+
+.mlIcon{
+    margin-left: 3%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .orgMapCtt{
+        flex-direction: column-reverse;
+        height: 120vh;
+    }
+}

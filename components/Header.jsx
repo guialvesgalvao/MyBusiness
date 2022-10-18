@@ -22,13 +22,13 @@ export default function Header () {
         placeholder="blur"
       />
     </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
+        <NavbarToggler onClick={toggle} className="navbar-light toggleBorder"/>
+        <Collapse isOpen={isOpen} navbar >
           <Nav className="me-auto" navbar>
           <NavItem>
-              <NavLink href="/components/" className="colorNavHead">Ínicio</NavLink>
+              <NavLink href="/" className="colorNavHead">Ínicio</NavLink>
             </NavItem>
-          <UncontrolledDropdown  nav inNavbar>
+          <UncontrolledDropdown  nav inNavbar >
               <DropdownToggle nav caret className="colorNavHead">
                 Produtos
               </DropdownToggle>
@@ -41,10 +41,10 @@ export default function Header () {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/components/" className="colorNavHead">Sobre Nós</NavLink>
+              <NavLink href="/about" className="colorNavHead">Sobre Nós</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/" className="colorNavHead">Contato</NavLink>
+              <NavLink href="/contato" className="colorNavHead">Contato</NavLink>
             </NavItem>
           </Nav>
           
@@ -55,8 +55,3 @@ export default function Header () {
         
     )
 }
-/*                <Link href="/" >
-<a>
-<Image src={Logo} alt="Aba Embalagens" />
-</a>
-</Link>*/
