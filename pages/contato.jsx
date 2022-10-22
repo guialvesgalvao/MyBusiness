@@ -11,7 +11,7 @@ export default function Contato () {
             <Row><h1>Entre em Contato</h1></Row>
             <Row className='pt-4'>
                 <div className='orgMapCtt'>
-                    <div className='socialOrg'>
+                    <div>
                         <div className='pb-3'>
                             <h5 className='titleCtt pb-2'>Telefone</h5>
                             <span>11933995588</span>

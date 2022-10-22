@@ -1,5 +1,9 @@
 /* --- Geral --- */
 
+* {
+    box-sizing: border-box;
+}
+
 .backColor {
     background-color: #f9f8f9;
 }
@@ -94,7 +98,7 @@
     color: #fff;
     width: 70%;
     font-weight: 400;
-    text-shadow: 5px 5px 4px black;
+    text-shadow: 5px 5px 4px rgb(76, 75, 75);
 }
 
 .btnVI {
@@ -138,6 +142,17 @@
 
 
 
+
+
+
+@media screen and (max-width: 700px) {
+    .widthBtnVI{
+        width: 30% !important;
+    }
+    .containerBanner{
+        
+    }
+}
 
 
 
