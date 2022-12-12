@@ -71,19 +71,19 @@ export default function Home() {
             <Row xs="6" className="pt-5 justify-content-around text-center fontQuick">
             <Col className="">
                 <Image src="/i-pers-r.png" alt="" width="150" height="150" layout="intrinsic"/>
-                <p>Personalização do seu jeito!</p>
+                <p className="descSty">Personalização do seu jeito!</p>
             </Col>
             <Col className="pl-3">
             <Image src="/i-caixa-r.png" alt="" width="150" height="150" layout="intrinsic"/>
-            <p>Resistência e Qualidade</p>
+            <p className="descSty">Resistência e Qualidade</p>
             </Col>
             <Col className="testevh">
             <Image src="/i-entrega-r.png" alt="" width="150" height="150" layout="intrinsic"/>
-            <p>Entrega Rápida</p>
+            <p className="descSty">Entrega Rápida</p>
             </Col>
             <Col className="testevh">
             <Image src="/i-timer-r.png" alt="" width="150" height="150" layout="intrinsic"/>
-            <p>Produção Rápida</p>
+            <p className="descSty">Produção Rápida</p>
             </Col>
             </Row>
       </Container>

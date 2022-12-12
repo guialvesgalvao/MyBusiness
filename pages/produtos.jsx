@@ -11,8 +11,7 @@ export default function allProducts () {
         outline
         >
         <CardHeader>
-        Guardanapos de Papel
-Personalizados
+        Guardanapos de Papel Personalizados
         </CardHeader>
         <CardBody>
         <CardTitle tag="h5">

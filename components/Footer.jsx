@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import {Row,Col,Container} from "reactstrap";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram,faFacebook} from '@fortawesome/free-brands-svg-icons';
+import { faInstagram,faFacebook,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons';
 
 
 export default function Footer () {
