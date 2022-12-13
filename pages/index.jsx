@@ -14,18 +14,16 @@ export default function Home() {
     <div className="backColor">
               <Carousel>
                   <div>
-                      <img src="/1.png" alt="image1"/>
-                      <button className="legend">Image 1</button>
+                      <img src="/9.png" alt="image1"/>
+
   
                   </div>
                   <div>
-                      <img src="/1.png" alt="image2" />
+                      <img src="/10.png" alt="image2" />
   
                   </div>
                   <div>
-                      <img src="/1.png" alt="image3"/>
-                      <p className="legend">Image 3</p>
-  
+                      <img src="/8.png" alt="image3"/>  
                   </div>
                   <div>
                       <img src="/1.png" alt="image4"/>

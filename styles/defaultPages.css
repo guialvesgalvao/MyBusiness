@@ -9,7 +9,7 @@
 }
 
 .fontQuick{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .whatsapp-link{
@@ -33,7 +33,7 @@
 .colorNavHead {
     color: #000 !important;
     margin-right: 10px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .colorNavHead:hover {
@@ -82,14 +82,14 @@
 
 .titleFooter {
     padding-right: 30px;
-    font-family: 'Quicksand', serif;
+    font-family: 'Open Sans', serif;
 }
 
 /* --- Faixa --- */
 
 .containerBanner {
     background-color:#4daa25 ;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -106,7 +106,7 @@
     color: #e2001a;
     border-radius: 8px;
     border: 2px #e2001a solid ;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     
 }
 
