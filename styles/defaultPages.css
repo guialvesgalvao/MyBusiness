@@ -97,7 +97,7 @@
     font-size: 1.225rem;
     color: #fff;
     width: 70%;
-    font-weight: 400;
+    font-weight: 600;
     text-shadow: 5px 5px 4px rgb(76, 75, 75);
 }
 
@@ -107,7 +107,24 @@
     border-radius: 8px;
     border: 2px #e2001a solid ;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     
+}
+
+.btnVII {
+    padding: 0.4rem;
+    color: #fff;
+    border-radius: 8px;
+    border: 2px #e2001a solid ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+}
+
+.btnVII:hover {
+    color: #e2001a;
+    background-color: #e2001a;
+    border: 2px #e2001a solid ;
 }
 
 .btnVI:hover {
@@ -116,7 +133,11 @@
 }
 
 .fundoBtnBanner {
-    background-color: #4daa25;
+    background-color: #e2001a;
+}
+
+.fundoBtnBanner:hover {
+    background-color: transparent;
 }
 
 /* --- Vídeo Inst. --- */
@@ -152,7 +173,7 @@
         
     }
     .descSty{
-        font-size: 0.875rem;
+        font-size: 0.775rem;
     }
 }
 

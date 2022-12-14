@@ -37,7 +37,7 @@ export default function Home() {
           </Col>
           <Col className="pt-5">
                 <p className="textMovie "> Produzimos as melhores embalagens personalizadas que sua empresa merece, tudo com rapidez e qualidade</p>
-                <button className="btnVI fundoBtnBanner">Solicite um Orçamento</button>
+                <button className="btnVII fundoBtnBanner">Solicite um Orçamento</button>
           </Col>
         </Row>
       </Container>
@@ -62,15 +62,15 @@ export default function Home() {
                 <Image src="/i-pers-r.png" alt="" width="150" height="150" layout="intrinsic"/>
                 <p className="descSty">Personalização do seu jeito!</p>
             </Col>
-            <Col className="pl-3">
+            <Col className="">
             <Image src="/i-caixa-r.png" alt="" width="150" height="150" layout="intrinsic"/>
             <p className="descSty">Resistência e Qualidade</p>
             </Col>
-            <Col className="testevh">
+            <Col className="">
             <Image src="/i-entrega-r.png" alt="" width="150" height="150" layout="intrinsic"/>
             <p className="descSty">Entrega Rápida</p>
             </Col>
-            <Col className="testevh">
+            <Col className="">
             <Image src="/i-timer-r.png" alt="" width="150" height="150" layout="intrinsic"/>
             <p className="descSty">Produção Rápida</p>
             </Col>
