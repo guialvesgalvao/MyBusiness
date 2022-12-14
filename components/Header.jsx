@@ -26,13 +26,13 @@ export default function Header () {
         <Collapse isOpen={isOpen} navbar >
           <Nav className="me-auto" navbar>
           <NavItem>
-              <NavLink href="/" className="colorNavHead">Ínicio</NavLink>
+              <NavLink href="/" className="colorNavHead">Home</NavLink>
             </NavItem>
           <UncontrolledDropdown  nav inNavbar >
               <DropdownToggle nav caret className="colorNavHead">
                 Produtos
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem className="backHov fontQuick">Todos os Produtos</DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem className="backHov fontQuick">Caixas de Pizzas</DropdownItem>

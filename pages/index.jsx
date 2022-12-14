@@ -15,25 +15,16 @@ export default function Home() {
               <Carousel>
                   <div>
                       <img src="/9.png" alt="image1"/>
-
-  
                   </div>
                   <div>
                       <img src="/10.png" alt="image2" />
   
                   </div>
                   <div>
-                      <img src="/8.png" alt="image3"/>  
+                      <img src="/11.png" alt="image3"/>  
                   </div>
                   <div>
-                      <img src="/1.png" alt="image4"/>
-                      <p className="legend">Image 4</p>
-  
-                  </div>
-                  <div>
-                      <img src="/1.png" alt="image5"/>
-                      <p className="legend">Image 5</p>
-  
+                      <img src="/8.png" alt="image4"/>  
                   </div>
               </Carousel>
       <div>
