@@ -48,7 +48,7 @@ export default function Home() {
         <Row>
         <iframe className="" width="727" height="409" src="https://www.youtube.com/embed/YTTvB8yQDt8" title="Vídeo Institucional Aba" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </Row>
-        <Row className="pt-5 pStyle a">
+        <Row className="pt-5 pStyle ab">
         <p>Produzimos as melhores embalagens personalizadas que sua empresa merece, tudo com rapidez e qualidade</p>
         </Row>
         <Row className="displayBtn">
