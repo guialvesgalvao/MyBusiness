@@ -1,13 +1,17 @@
 .container{
     width: 1000px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .container .card{
-
+    width: 30%;
+    background-color: #f9f8f9;
     cursor: pointer;
+    border: none;
 }
 
 .container .card .face{
@@ -71,4 +75,22 @@
 .card-products-button:hover{
     background: #333;
     color: #fff;
+}
+
+@media screen and (min-width:767px) and (max-width:1023px){
+    .container .card{
+        width: 40%; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container .card{
+        width: 50%;
+    }
 }
