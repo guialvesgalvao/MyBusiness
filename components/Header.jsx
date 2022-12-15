@@ -33,7 +33,7 @@ export default function Header () {
                 Produtos
               </DropdownToggle>
               <DropdownMenu end>
-                <DropdownItem className="backHov fontQuick">Todos os Produtos</DropdownItem>
+                <DropdownItem className="backHov fontQuick" href="/todos-produtos">Todos os Produtos</DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem className="backHov fontQuick">Caixas de Pizzas</DropdownItem>
                 <DropdownItem className="backHov fontQuick">Guardanapos de papel personalizados</DropdownItem>
