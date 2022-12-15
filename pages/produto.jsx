@@ -5,7 +5,7 @@ export default function Produto () {
 
     return (
         <>
-        <div className="container">
+        <div className="container1">
         <div className="card">
             <div className="face face1">
                 <div className="">
