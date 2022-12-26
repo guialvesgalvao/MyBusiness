@@ -35,9 +35,15 @@ export default function Header () {
               <DropdownMenu end>
                 <DropdownItem className="backHov fontQuick" href="/todos-produtos">Todos os Produtos</DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem className="backHov fontQuick">Caixas de Pizzas</DropdownItem>
-                <DropdownItem className="backHov fontQuick">Guardanapos de papel personalizados</DropdownItem>
-                <DropdownItem className="backHov fontQuick">Sacos de papel personalizados</DropdownItem>
+                <DropdownItem className="backHov fontQuick" href="/produtos/caixas-de-pizza">Caixas de Pizzas</DropdownItem>
+                <DropdownItem className="backHov fontQuick" href="/produtos/caixas-de-esfiha">Caixas de Esfiha</DropdownItem>
+                <DropdownItem className="backHov fontQuick" href="/produtos/guardanapos">Guardanapos de papel personalizados</DropdownItem>
+                <DropdownItem className="backHov fontQuick" href="/produtos/sacos-de-papel">Sacos de papel personalizados</DropdownItem>
+                <DropdownItem className="backHov fontQuick" href="/produtos/copos">Copos de papel personalizados</DropdownItem>
+                <DropdownItem className="backHov fontQuick" href="/produtos/embalagens">Embalagens para Padaria, Cafeteria e Delivery</DropdownItem>
+                <DropdownItem className="backHov fontQuick" href="/produtos/pdv">Material de Ponto de Venda</DropdownItem>
+                <DropdownItem className="backHov fontQuick" href="/produtos/impressos-graficos">Impressos Gráficos</DropdownItem>
+                <DropdownItem className="backHov fontQuick" href="/produtos/caixas-ecommerce">Caixas E-Commerce</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>

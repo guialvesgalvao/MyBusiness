@@ -17,12 +17,6 @@
     width: 50%;
     font-family: 'Open Sans',sans-serif;
     font-size: 1.2rem;
-
-
-}
-
-.image-part{
-
 }
 
 .btn-style{
@@ -34,4 +28,14 @@
     color: white;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width:1023px){
+    .containerAbout{
+        flex-direction: column-reverse;
+        min-height: 200vh;
+    }
+    .text-part{
+        width: 100%;
+    }
 }
