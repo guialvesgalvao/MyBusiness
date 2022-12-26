@@ -1,0 +1,39 @@
+.containerSpec{
+    width: 90%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0% 5%;
+}
+
+.containerImg{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.containerDesc{
+    width: 35%;
+
+}
+
+.justifyButton{
+    display: flex;
+    justify-content: end;
+    margin-right: 2%;
+}
+
+.buttonContact{
+    background-color: black;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.75% 3.5%;
+}
+
+.unitImage {
+    width: 40%;
+    margin: 1% 3%;
+}
