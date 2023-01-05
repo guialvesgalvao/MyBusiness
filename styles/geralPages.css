@@ -9,6 +9,11 @@
     flex-direction: row;
 }
 
+.whmaps {
+    width: 450px;
+    height: 450px;
+}
+
 .titleCtt{
     font-family: 'Open Sans', sans-serif;
 }
@@ -49,7 +54,7 @@
 
 @media screen and (max-width: 700px) {
     .orgMapCtt{
-        flex-direction: column-reverse;
+        flex-direction: column;
         height: 120vh;
     }
 }

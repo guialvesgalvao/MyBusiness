@@ -18,7 +18,6 @@ export default function Home() {
                   </div>
                   <div>
                       <img src="/10.png" alt="image2" />
-  
                   </div>
                   <div>
                       <img src="/11.png" alt="image3"/>  

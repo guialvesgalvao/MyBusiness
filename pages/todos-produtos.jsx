@@ -9,6 +9,7 @@ import i27 from '../public/27.png';
 import i28 from '../public/28.png';
 import i29 from '../public/29.png';
 import Image from 'next/image';
+import Link from 'next/Link';
 
 export default function Produto () {
 
@@ -25,7 +26,7 @@ export default function Produto () {
                 <div className="content">
                     <p className="desc-card-hover">• Caixas de Pizza oitavadas, fotográficas e conjugadas. Impressão off set fotográfica .
                     Tamanhos: Broto 25, Caixa 30, Caixa 35 e Caixa 40.</p>
-                        <a className="card-products-button" href="#">Ver Mais</a>
+                    <Link href="/produtos/caixas-de-pizza"><a className="card-products-button" href="">Ver Mais</a></Link>
                 </div>
             </div>
         </div>
@@ -38,7 +39,7 @@ export default function Produto () {
             <div className="face face2">
                 <div className="content">
                     <p className="desc-card-hover">Guardanapos personalizados em diferentes tamanhos.</p>
-                        <a className="card-products-button" href="#">Ver Mais</a>
+                    <Link href="/produtos/guardanapos"><a className="card-products-button" href="#">Ver Mais</a></Link>
                 </div>
             </div>
         </div>
@@ -51,7 +52,7 @@ export default function Produto () {
             <div className="face face2">
                 <div className="content">
                     <p className="desc-card-hover">Trabalhamos com diversos tipos de Copos Personalizados em diferentes tamanhos.</p>
-                        <a className="card-products-button" href="#">Ver Mais</a>
+                    <Link href="/produtos/copos"><a className="card-products-button" href="#">Ver Mais</a></Link>
                 </div>
             </div>
         </div>
@@ -64,7 +65,7 @@ export default function Produto () {
             <div className="face face2">
                 <div className="content">
                     <p className="desc-card-hover">Trabalhamos com diversos tipos de sacos personalizados em diferentes tamanhos.</p>
-                        <a className="card-products-button" href="#">Ver Mais</a>
+                    <Link href="/produtos/sacos-de-papel"><a className="card-products-button" href="#">Ver Mais</a></Link>
                 </div>
             </div>
         </div>
@@ -77,7 +78,7 @@ export default function Produto () {
             <div className="face face2">
                 <div className="content">
                     <p className="desc-card-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                        <a className="card-products-button" href="#">Ver Mais</a>
+                    <Link href="/produtos/caixas-ecommerce"><a className="card-products-button" href="#">Ver Mais</a></Link>
                 </div>
             </div>
         </div>
@@ -90,7 +91,7 @@ export default function Produto () {
             <div className="face face2">
                 <div className="content">
                     <p className="desc-card-hover">Catálogos, folhetos e papelaria.</p>
-                        <a className="card-products-button" href="#">Ver Mais</a>
+                    <Link href="/produtos/impressos-graficos"><a className="card-products-button" href="#">Ver Mais</a></Link>
                 </div>
             </div>
         </div>
@@ -103,7 +104,7 @@ export default function Produto () {
             <div className="face face2">
                 <div className="content">
                     <p className="desc-card-hover">Sua empresa em destaque nos pontos de venda.</p>
-                        <a className="card-products-button" href="#">Ver Mais</a>
+                    <Link href="/produtos/pdv"><a className="card-products-button" href="#">Ver Mais</a></Link>
                 </div>
             </div>
         </div>
@@ -117,7 +118,7 @@ export default function Produto () {
                 <div className="content">
                     <p className="desc-card-hover">• Caixas de Esfiha, Impressão off set fotográfica
                     Tamanhos: P, M, G e GG.</p>
-                        <a className="card-products-button" href="#">Ver Mais</a>
+                    <Link href="/produtos/caixas-de-esfiha"><a className="card-products-button" href="#">Ver Mais</a></Link>
                 </div>
             </div>
         </div>
@@ -130,7 +131,7 @@ export default function Produto () {
             <div className="face face2">
                 <div className="content">
                     <p className="desc-card-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                        <a className="card-products-button" href="#">Ver Mais</a>
+                    <Link href="/produtos/embalagens"><a className="card-products-button" href="#">Ver Mais</a></Link>
                 </div>
             </div>
         </div>
