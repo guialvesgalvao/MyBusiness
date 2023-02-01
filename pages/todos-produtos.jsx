@@ -9,7 +9,7 @@ import i27 from '../public/27.png';
 import i28 from '../public/28.png';
 import i29 from '../public/29.png';
 import Image from 'next/image';
-import Link from 'next/Link';
+import Link from 'next/link';
 
 export default function Produto () {
 
