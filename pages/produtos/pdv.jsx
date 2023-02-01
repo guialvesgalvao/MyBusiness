@@ -1,4 +1,4 @@
-import pdv1 from '../../public/pdv1.jpg';
+import pdv1 from '../../public/pdv1.png';
 
 import Image from "next/image";
 
@@ -16,7 +16,7 @@ export default function pdvPage() {
                     <p>Sua empresa em destaque nos pontos de venda.</p>
                 </div>
                 <div className="justifyButton">
-                    <button className="buttonContact">Contatar</button>
+                    <button className="buttonContact"><a className='textDec' href="https://api.whatsapp.com/send?1=pt_BR&phone=5511995249688">Contatar</a></button>
                 </div>
             </div>
         </div>

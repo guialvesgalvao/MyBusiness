@@ -1,5 +1,5 @@
-import cpe1 from '../../public/cpe1.jpg';
-import cpe2 from '../../public/cpe2.jpg';
+import cpe1 from '../../public/cpe1.png';
+import cpe2 from '../../public/cpe2.png';
 
 
 import Image from "next/image";
@@ -21,7 +21,7 @@ export default function CaixaecommercePage() {
                     <p>Confira a metragem ideal para você na imagem.</p>
                 </div>
                 <div className="justifyButton">
-                    <button className="buttonContact">Contatar</button>
+                    <button className="buttonContact"><a className='textDec' href="https://api.whatsapp.com/send?1=pt_BR&phone=5511995249688">Contatar</a></button>
                 </div>
             </div>
         </div>

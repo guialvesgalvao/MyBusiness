@@ -1,15 +1,15 @@
-import em1 from '../../public/em1.jpg';
-import em2 from '../../public/em2.jpg';
-import em3 from '../../public/em3.jpg';
-import em4 from '../../public/em4.jpg';
-import em5 from '../../public/em5.jpg';
-import em6 from '../../public/em6.jpg';
-import em7 from '../../public/em7.jpg';
-import em8 from '../../public/em8.jpg';
-import em9 from '../../public/em9.jpg';
-import em10 from '../../public/em10.jpg';
-import em11 from '../../public/em11.jpg';
-import em12 from '../../public/em12.jpg';
+import em1 from '../../public/em1.png';
+import em2 from '../../public/em2.png';
+import em3 from '../../public/em3.png';
+import em4 from '../../public/em4.png';
+import em5 from '../../public/em5.png';
+import em6 from '../../public/em6.png';
+import em7 from '../../public/em7.png';
+import em8 from '../../public/em8.png';
+import em9 from '../../public/em9.png';
+import em10 from '../../public/em10.png';
+import em11 from '../../public/em11.png';
+import em12 from '../../public/em12.png';
 
 import Image from "next/image";
 
@@ -61,7 +61,7 @@ export default function EmbalagensPage() {
                     <p>Diversas opções de embalagens especialmente para sua empresa.</p>
                 </div>
                 <div className="justifyButton">
-                    <button className="buttonContact">Contatar</button>
+                    <button className="buttonContact"><a className='textDec' href="https://api.whatsapp.com/send?1=pt_BR&phone=5511995249688">Contatar</a></button>
                 </div>
             </div>
         </div>
