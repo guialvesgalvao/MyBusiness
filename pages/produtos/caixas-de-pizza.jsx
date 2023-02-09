@@ -9,7 +9,6 @@ import cp7 from '../../public/cp7.png';
 
 import Image from "next/image";
 
-
 export default function CaixaPizzaPage() {
     return(
         <div className="containerSpec mt-3">
@@ -45,11 +44,20 @@ export default function CaixaPizzaPage() {
             <div className="containerDesc">
                 <div>
                     <h1>Caixas de Pizza</h1>
-                    <p>Caixas oitavadas, fotográficas e conjugadas. Impressão Off Set fotográfica.<br/>
-                    <strong>Tamanhos</strong>: Broto 25, Caixa 30, Caixa 35 e Caixa 40.</p>
+                    <p>
+                        Caixas oitavadas, fotográficas e conjugadas. Impressão Off Set fotográfica.
+                        <br/>
+                        <strong>
+                        Tamanhos
+                        </strong>: Broto 25, Caixa 30, Caixa 35 e Caixa 40.
+                    </p>
                 </div>
                 <div className="justifyButton">
-                    <button className="buttonContact"><a className='textDec' href="https://api.whatsapp.com/send?1=pt_BR&phone=5511995249688">Contatar</a></button>
+                    <button className="buttonContact">
+                        <a className='textDec' href="https://api.whatsapp.com/send?1=pt_BR&phone=5511995249688">
+                            Contatar
+                        </a>
+                    </button>
                 </div>
             </div>
         </div>

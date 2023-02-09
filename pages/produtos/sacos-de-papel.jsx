@@ -16,7 +16,11 @@ export default function SacosPage() {
                     <p>Trabalhamos com diversos tipos de sacos personalizados em diferentes tamanhos.</p>
                 </div>
                 <div className="justifyButton">
-                    <button className="buttonContact"><a className='textDec' href="https://api.whatsapp.com/send?1=pt_BR&phone=5511995249688">Contatar</a></button>
+                    <button className="buttonContact">
+                        <a className='textDec' href="https://api.whatsapp.com/send?1=pt_BR&phone=5511995249688">
+                            Contatar
+                        </a>
+                    </button>
                 </div>
             </div>
         </div>

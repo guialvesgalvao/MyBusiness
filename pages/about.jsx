@@ -13,7 +13,9 @@ export default function About () {
                 <p>Somos uma empresa que tem como princípio a satisfação e priorização dos nosso clientes. Sempre com muita responsabilidade nas entregas.</p>
                 <p>Desde 2019 atuando com rapidez e qualidade em nossas embalagens personalizadas, adquirindo cerca de mais de 100 clientes da grande São Paulo.</p>
                 <p>Nossos produtos são de alta qualidade assim como o seu Negócio!</p>    
-                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511995249688"><button className="btn-style">Entre em contato --&gt;</button> </a>
+                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5511995249688">
+                    <button className="btn-style">Entre em contato --&gt;</button> 
+                </a>
             </div>
             <div className="image-part">
                 <Image src={ImageAbout} alt="Modelo Aba" width="800" height="800"/>
